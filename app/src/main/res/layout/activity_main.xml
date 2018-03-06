@@ -4,21 +4,6 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <SurfaceView
-        android:id="@+id/cameraview"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="1"/>
-
-    <TextView
-        android:id="@+id/debug_text"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@android:color/black"
-        android:padding="16dp"
-        android:textColor="@android:color/white"
-        android:textStyle="bold" />
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -31,5 +16,11 @@
             android:layout_weight="1"
             android:text="Faces" />
     </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="116dp"
+        android:text='Click "faces" to use the Camera' />
 
 </LinearLayout>
